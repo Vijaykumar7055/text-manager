@@ -30,11 +30,56 @@ body{
 
 .text-card-container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 
 .text-card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+  background-color: yellow;
+  box-shadow: 1px 1px 6px 1px rgb(238, 223, 223);
+}
+
+
+input,textarea{
+  outline: none;
+  border: none;
+  width: 400px;
+  padding: 8px 0;
+  font-size: 15px;
+}
+.button-send{
+  padding-bottom: 5px;
   
 }
+
+.arrow-send{
+  float: right;
+
+}
+.arrow-send i{
+  font-size: 20px;
+  font-weight: 700;
+ 
+}
+
+.form-container{
+  display: flex;
+  margin-top: 20px;
+}
+
+.text-card1{
+  box-shadow: 1px 1px 6px 1px rgb(196, 149, 149);
+padding: 20px 10px;
+  width: 20%;
+}
+.text-card1 i{
+  font-size: 30px;
+  font-weight: 800;
+}
+
