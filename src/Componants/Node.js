@@ -1,13 +1,15 @@
 import React from 'react'
-
-const Node = () => {
+import Button from '@mui/material/Button';
+const Node = (probs) => {
   return (
     <div className="form-container">
     <div className='text-card1'>
-   <h1>Title</h1>
+   <h1>{probs.title}</h1>
 <br />
-<p>this is contant</p>
+<p>{probs.contant}</p>
+<Button variant="contained">
 <i class="fa-solid fa-trash"></i>
+</Button>
     </div>
     </div>
   )
